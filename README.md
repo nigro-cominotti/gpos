@@ -31,7 +31,7 @@ They re-enable everything that is disabled by 'bench' and
 
 ## Export Local Group Policy Settings
 
-To create a backup for local policy policy settings on your local PC, run this command at Command Prompt:
+To create a backup for local policy settings on your local PC, run this command at Command Prompt:
 
 ```LGPO.exe /b backup_path```
 
