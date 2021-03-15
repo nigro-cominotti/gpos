@@ -1,6 +1,12 @@
 # GPOS
 A set of LGPO exported GPOs that can be imported to alternate between benchmarking and daily use modes.
 
+## Setup
+
+Download LGPO from Microsoft (it's part of the Microsoft Security Compliance Toolkit 1.0) and add ```LGPO.exe``` to your PATH.
+
+https://www.microsoft.com/en-us/download/details.aspx?id=55319
+
 ## Current GPO Sets
 
 ### bench
@@ -25,11 +31,12 @@ They re-enable everything that is disabled by 'bench' and
 
 ## Export Local Group Policy Settings
 
-To create a backup for local policy policy settings on your local PC, run this command at Command Prompt:
+To create a backup for local policy settings on your local PC, run this command at Command Prompt:
 
-´´´LGPO.exe /b backup_path´´´
+```LGPO.exe /b backup_path```
 
 ## Import Local Group Policy Settings
 
 To restore Local Group Policy settings from the backup, import them by running the following command:
-´´´LGPO.exe /g backup_path´´´
+
+```LGPO.exe /g backup_path```
