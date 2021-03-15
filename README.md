@@ -3,7 +3,7 @@ A set of LGPO exported GPOs that can be imported to alternate between benchmarki
 
 ## Setup
 
-Download LGPO from Microsoft (it's part of the Microsoft Security Compliance Toolkit 1.0) and add ```lgpo.exe``` to your PATH.
+Download LGPO from Microsoft (it's part of the Microsoft Security Compliance Toolkit 1.0) and add ```LGPO.exe``` to your PATH.
 
 https://www.microsoft.com/en-us/download/details.aspx?id=55319
 
